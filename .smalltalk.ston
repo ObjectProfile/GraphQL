@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #configuration : 'GraphQLBeta',
+      #repository : 'http://smalltalkhub.com/mc/ObjectProfile/GraphQL/main',
+      #load : [ 'default' ],
+      #platforms : [ #pharo ],
+      #version: #development
+    }
+  ],
+
+  #testing : {
+   #packages : [ 'GraphQLBeta'
+ ]
+   }
+}
